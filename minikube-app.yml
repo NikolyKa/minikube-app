@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: app-kuber-2
+spec:
+  containers:
+  - name: app-kuber-container
+    image: nikolyka/kuber:latest
+    ports:
+    - containerPort: 8000
