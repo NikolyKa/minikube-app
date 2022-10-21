@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: app-kuber-2
+  name: app-kuber
 spec:
   containers:
   - name: app-kuber-container
