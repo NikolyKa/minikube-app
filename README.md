@@ -8,7 +8,7 @@
 <h3>После успешного создания кластера, командой ```kubectl get nodes``` проверяем наличие 
 созданного нода.</h3>
 
-<h3>Командой ```kubectl run app-kuber --image=nikolyka/kuber --port=8000``` создаем pod
+<h3>Командой</h3> ```kubectl run app-kuber --image=nikolyka/kuber --port=8000``` <h3> создаем pod
 
 с названием ```k8s-app``` на имедже "nikolyka/kuber" и открываем порт 8000 контейнеру.</h3>
 <h3>Либо командой ```kubectl apply -f minikube-app.yml``` проделываем то же самое
